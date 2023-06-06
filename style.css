@@ -33,7 +33,6 @@ nav a {
 
 	text-transform: uppercase;
 	color: #000000;
-	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
@@ -307,16 +306,30 @@ td, th {
 	nav {
 
 		position:static;
+		font-weight: normal;
 	}
 
 	.caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
 
-		width: auto;
+		width: auto
+
 	}
+
+	.principal, .mapa {
+
+		padding: 50px 20px 0 20px  ;
+	}
+
 
 	.lista-diferenciales, .imagen-diferenciales {
 
-		width: 100%;
+		width: 90%;
+		margin: 0 15px 20px 20px;
+	}
+
+	.video {
+
+		margin: 0 23px;
 	}
 
 	.productos {
